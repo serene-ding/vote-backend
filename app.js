@@ -23,7 +23,7 @@ const voteWsMap = {
 };
 
 console.log("voteWsMap", voteWsMap);
-
+ws.send;
 // ws://localhost:3001/realtime-voteinfo/2
 wss.on("connection", (ws, req) => {
   var parsedCookie = cookieParser.signedCookies(
